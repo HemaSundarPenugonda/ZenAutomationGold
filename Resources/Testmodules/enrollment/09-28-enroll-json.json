@@ -1,0 +1,277 @@
+{
+	"SaleType":"New Customer",
+	"CreateParent":false,
+	"ParentCustomerNumber":null,
+	"Customer":{
+		"AuthorizedContactList":[
+			{
+				"ContactTypeName":"Primary",
+				"ContactName":"Chiller Customer Contact Name",
+				"BirthDate":"1989-11-12",
+				"IsPrimary":true,
+				"AuthorizedContactPhoneList":[
+					{
+						"IsPrimary":false,
+						"ContactPhone":{
+							"PhoneTypeName":"Work",
+							"PhoneCountryCode":"",
+							"PhoneAreaCode":404,
+							"PhoneNumber":6666666,
+							"PhoneExtension":333,
+							"IsSMSAllowed":false,
+							"IsDoNotCall":false
+						}
+					}
+				],
+				"AuthorizedContactEmailList":[
+					{
+						"IsPrimary":false,
+						"ContactEmail":{
+							"EmailTypeName":"Contact",
+							"EmailAddress":"PrimaryCustContact@zn.com"
+						}
+					}
+				]
+			}
+		],
+		"BillingAccount":{
+			"AuthorizedContactList":[
+				{
+					"ContactTypeName":"Primary",
+					"ContactName":"Chiller Customer Contact Name",
+					"BirthDate":"1989-11-12",
+					"IsPrimary":true,
+					"AuthorizedContactPhoneList":[
+						{
+							"IsPrimary":false,
+							"ContactPhone":{
+								"PhoneTypeName":"Work",
+								"PhoneCountryCode":"",
+								"PhoneAreaCode":404,
+								"PhoneNumber":6666666,
+								"PhoneExtension":333,
+								"IsSMSAllowed":false,
+								"IsDoNotCall":false
+							}
+						}
+					],
+					"AuthorizedContactEmailList":[
+						{
+							"IsPrimary":false,
+							"ContactEmail":{
+								"EmailTypeName":"Contact",
+								"EmailAddress":"PrimaryCustContact@zn.com"
+							}
+						}
+					]
+				}
+			],
+			"Contract":{
+				"ContractTerm":12,
+				"ContractStartDate":"2015-09-10",
+				"ContractEndDate":"2016-09-10",
+				"ContractSignedDate":"2015-09-08",
+				"ContractNumber":"N01201354354272905",
+				"IsCreditRequirement":false
+			}
+			,
+			"MailAddress":{
+				"AttentionTo":"Chiller Hiller",
+				"Address1":"3625 Brookside Pkwy, Suite 395",
+				"Address2":"addr 2",
+				"Address3":"addr 3",
+				"City":"Alpharetta",
+				"County":null,
+				"State":"GA",
+				"Zip5":"30022",
+				"Zip4":"0000",
+				"Country":"US"
+			},
+			"SecondaryNotificationAddress":{
+				"AttentionTo":"Att 1",
+				"Address1":"3526 Old Milton Pkwy",
+				"Address2":null,
+				"Address3":null,
+				"City":"Alpharetta",
+				"County":null,
+				"State":"GA",
+				"Zip5":"30005",
+				"Zip4":"5567",
+				"Country":"US"
+			},
+			"ServiceAccount":{
+				"ContractDetailList":[
+					{
+						"ContractNumber":"N01201354354272905",
+						"ContractStartDate":"2015-09-12",
+						"ContractEndDate":"2016-09-12",
+						"DepositAmountTypeName":null,
+						"DepositAmount":null,
+						"ContractType":"New Enrollment",
+						"ChannelFee":33.54,
+						"CommissionAmount":83.43,
+						"SalesAgency":"SA1",
+						"SalesAgent":"Agent 1",
+						"SalesChannel":"Channel 1",
+						"CommisionType":"CMT1",
+						"DepositDueDate":"2015-09-02",
+						"ContractRateSchedule":{
+							"RateScheduleName":"RS1",
+							"ETFAmount":1200.45,
+							"ContractRateSegmentList":[
+								{
+									"Term":"12",
+									"ContractStartDate":"2015-10-29",
+									"ContractEndDate":"2016-10-29",
+									"RateCode":"RC1",
+									"ContractSegmentDetailList":[
+										{
+											"ContractRateSegmentDetailId":2,
+											"RateAmount":0.12349001,
+											
+										}
+									]
+								}
+							]
+						}
+					}
+				],
+				"MarketingInfo":[
+					{
+						"LevelBillInterest":true,
+						"SolarInterest":true
+					}
+				],
+				"MeterList":[
+					{
+						"MeterType":"AMSM",
+						"MeterNumber":"M1234",
+						"IsTOU":false,
+						"IsUnmetered":true,
+						"IsAMS":true,
+						"MeterLevel":222,
+						"MeterOwnerEntity":[
+							{
+								"MeterOwnerType":"MOT1",
+								"MeterOwnerID":8,
+								"MeterOwnerText":"test text"
+							}
+						]
+					}
+				],
+				"ServiceAddress":{
+					"AttentionTo":"service attn",
+					"Address1":"823 IRA E WOODS AVE ",
+					"Address2":"STE 200",
+					"Address3":null,
+					"City":"GRAPEVINE",
+					"County":null,
+					"State":"TX",
+					"Zip5":"76052",
+					"Zip4":"4083",
+					"Country":"US"
+				},
+				"Transaction":{
+					"IsTransactionHold":false,
+					"HoldReasonName":null,
+					"ScheduledTransactionReleaseDate":"2015-09-09",
+					"TransactionRequestTypeName":"Move In",
+					"RequestedEffectiveDate":"2015-09-12",
+					"HURequestType":"Historical Summary",
+					"EstimatedEffectiveDate":"2015-09-12",
+					"AccessDescription":"Test AD"
+				},
+				"Survey":[
+					{
+						"QuestionNumber":"TEST",
+						"Response":"TEST"
+					}
+				],
+				"ClientDuns":"Duns1",
+				"UtilityAccountNumber":"1044379075292471",
+				"UtilityName":"Oncor",
+				"TaxDistrict":null,
+				"IsLowIncome":false,
+				"ApplyLateFees":true,
+				"LateFeeOverride":null,
+				"LateFeePercentOverride":null,
+				"TransportServiceType":null,
+				"GasSupplySource":null,
+				"MonthlyAvgDailyUse":null,
+				"ServiceDeliveryPoint":null,
+				"IsAggregation":false,
+				"ServiceType":"Electric",
+				"IsSolar":null,
+				"AggregationType":null,
+				"AggregationCode":null,
+				"ParticipatingInterest":null,
+				"NameKey":null,
+				"SpecialNeeds":null,
+				"IsHumanNeeds":false,
+				"RescissionWaiver":false,
+				"EnergySource":null,
+				"NominationGroup":null,
+				"PricingCategory":null,
+				"RateClass":null,
+				"NotificationWaiver":false,
+				"TempSensitiveDelivery":false,
+				"TransmissionService":null,
+				"GasMaxDailyQty":null,
+				"GasPoolId":null,
+				"GasSupplyServiceOption":null,
+				"GasCapacityAssignment":null,
+				"GasSupplyBalancing":null,
+				"ServiceAccountReferenceId":234
+			},
+			"BillFormatName":"Standard",
+			"BillTypeName":"Supplier Consolidated",
+			"BillingAccountNumber":"30-agtejdc",
+			"ContractSource":"Commercial and Industrial",
+			"BillDay":4,
+			"PaymentTermOverride":22,
+			"SoldDate":"2015-09-02",
+			"DocumentDeliveryMethod":"Email",
+			"BillingAccountReferenceId":333
+		}
+		,
+		"CustomerCommercial":{
+			"CompanyName":"CAPITAL QUARTER HORSES, LLC",
+			"Dba":"CQH",
+			"TaxId":999999999
+		},
+		"CustomerIndividual":{
+			"DriverLicenseStateProvince":"Texas",
+			"Prefix":"Mr",
+			"FirstName":"FN3",
+			"MiddleName":"MN",
+			"LastName":"LN3",
+			"Suffix":"Jr",
+			"IsDomesticViolence":false,
+			"IsSenior":false,
+			"IsEmployee":false,
+			"MotherMaidenName":"MotherMaidenName",
+			"Last4SSN":1123,
+			"BirthDate":"2015-09-02",
+			"DriverLicenseNumber":"abcdefg123"
+		},
+		"LegalAddress":{
+			"AttentionTo":"General Counsel",
+			"Address1":"11320 SAINT JOHN RD",
+			"Address2":null,
+			"Address3":null,
+			"City":"Pilot Point",
+			"County":null,
+			"State":"GA",
+			"Zip5":"76258",
+			"Zip4":"0000",
+			"Country":"US"
+		},
+		"CustomerProspectId":1234,
+		"CustomerType":"Commercial",
+		"Language":"Spanish",
+		"CustomerNumber":"ABCD1234",
+		"CustomerName":"CAPITAL QUARTER HORSES, LLC",
+		"IsVIP":false,
+		"AccountManager":"Ac Mgr"
+	}
+}
